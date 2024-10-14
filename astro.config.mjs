@@ -11,7 +11,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  base: 'https://swumplurd.github.io/swumplurd/',
+  base: '/swumplurd/',
   output: 'static',
   integrations: [tailwind(), react(), icon(), mdx()]
 });
